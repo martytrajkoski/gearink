@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>GearInk</title>
+    <link rel="icon" href="../Home/gearink.png" type="image/x-icon">
+    <link rel="stylesheet" href="../body.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../slideshow.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #mainslideshow {
+            position: relative;
+            height: 600px;
+            width: 100%;
+            background-image: url("../Home/pattern.png");
+        }
+        .row1{
+            float: left;
+            width: 10%;
+        }
+        .row2{
+            float: left;
+            width: 80%;
+        }
+        .row3{
+            float: left;
+            width: 10%;
+        }
+        /* posts */
+        #posts{
+            position: relative;
+            width: 100%;
+        }
+        #posts .row1{
+            float: left;
+            width: 10%;
+        }
+        #posts .row2{
+            float: left;
+            width: 80%;
+        }
+        #posts .row3{
+            float: left;
+            width: 10%;
+        }
+        /* svetla */
+        .post1{
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-color: #013d4b;
+            /* background-color: #00232B; */
+        }
+        .post1 img{
+            margin-top: 2%;
+            border: 4px solid black;
+            float: left;
+        }
+        .post1 p{
+            float: left;
+            margin-top: 10%;
+            margin-left: 11%;
+            color: #B1FFE8;
+            font-family: 'Poppins';
+            font-size: 22px;
+        }
+        /* temna */
+        .post2{
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-color: #00232B;
+        }
+        .post2 img{
+            margin-top: 2%;
+            border: 4px solid black;
+            float: right;
+        }
+        .post2 p{
+            float: left;
+            margin-top: 10%;
+            margin-left: 1%;
+            color: #B1FFE8;
+            font-family: 'Poppins';
+            font-size: 22px;
+        }
+    </style>
+    <style>
+        .mySlides {
+            display: none
+        }
+        .slideshow-container img {
+            vertical-align: middle;
+            border-radius: 20px;
+            margin-top: 10px;
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.6);
+        }
+ 
+        /* Slideshow container */
+        
+        .slideshow-container {
+        max-width: 75%;
+        height: 600px;
+        margin: auto;
+        }
+        
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+        
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 500px) {
+        .prev, .next,.text {font-size: 11px}
+
+        
+        @media only screen and (max-width: 500px) {
+        .prev, .next,.text {font-size: 14px}
+        }
+        }
+    </style>
+                
+</head>
+
+<body>
+    <div id="header">
+        <div class="logotop">
+            <img src="../Home/gearink.png" alt="GearInk"  height="110px"
+                onclick="location.href='index.html'">
+        </div>
+        <div class="dropdowntop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <div class="dropdown">
+                    <p class="dropbtn">Categories
+                        <i class="fa fa-caret-down"></i>
+                    </p>
+                    <div class="dropdown-content">
+                        <a href="hoodies.html">Hoodies</a>
+                        <a href="tshirts.html">T-Shirts</a>
+                    </div>
+                </div></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>   
+        </div>
+        <div class="langdropdown">
+            <ul class="langsocial">
+                <li><img src="../Home/uk.png" alt="English" width="40px" height="20px" onclick="location.href='../eng/index.html'"></li>
+                <li><img src="../Home/mk.jpg" alt="Macedonian" width="40px" height="20px" onclick="location.href='../mk/pocetna.html'"></li>
+                <li><img src="../Home/alb.png" alt="Albanian" width="40px" height="20px" onclick="location.href='../alb/Home.html'"></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div id="mainslideshow">
+        <div class="row1">
+            <br>
+        </div>
+        <div class="row2">
+            <div class="slideshow-container">
+               
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image0.jpeg" style="width:100%" height="600px" alt="pfwejf9fj">
+                </div>
+         
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image1.jpeg" style="width:100%" height="600px">
+                </div>
+         
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image2.jpeg" style="width:100%" height="600px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image3.png" style="width:100%" height="600px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image4.jpeg" style="width:100%" height="600px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../Slideshow/image5.jpeg" style="width:100%"  height="600px">
+                </div>
+            </div>
+            <br>
+         
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+         
+            <script src="../script.js"></script>
+        </div>
+        <div class="row3">
+            <br>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="posts">
+
+        <div class="post2">
+            <div class="row1"><br></div>
+            <div class="row2">
+                <img src="../Hoodies/posts/2.jpg" alt="Hoodie" width="400px">
+                <p> 👕Design a T-SHIRT / BLOUSE / SWEATER with a picture of your choice! <br>
+                    🏠Payment upon receipt of the order! <br>
+                    🚚Fast delivery in 2-3 days throughout Macedonia and beyond. <br> By far the best quality, 100% COTTON!</p>
+            </div>
+            <div class="row3"><br></div>
+        </div>
+
+        <div class="post1">
+            <div class="row1"><br></div>
+            <div class="row2">
+                <img src="../Hoodies/posts/3.jpg" alt="Hoodie" width="350px">
+                <p>Available sizes: S, M, L, XL, XXL, 3XL <br>
+                    - Fast delivery throughout Macedonia. <br>
+                    - Payment at the door</p>
+            </div>
+            <div class="row3"><br></div>
+        </div>
+
+        <div class="post2">
+            <div class="row1"><br></div>
+            <div class="row2">
+                <img src="../Hoodies/posts/4.jpg" alt="Hoodie" width="350px">
+                <p style="margin-top: 6%;"> With the current promotion you get: <br>
+                    - Price of sweatshirts 1190den. <br>
+                    - Price of blouses 890 den. <br>
+                    - Price of T-shirts 590 den. <br>
+                    <br>
+                    We also do wholesale with the lowest prices <br> for 20,50,100,200,500,500,1000 pieces.</p>
+            </div>
+            <div class="row3"><br></div>
+        </div>
+
+        <div class="post1">
+            <div class="row1"><br></div>
+            <div class="row2">
+                <img src="../Hoodies/posts/1.jpg" alt="Hoodie" width="400px">
+                <p>🌈Photo quality, perfect color and super precise details! <br>
+                    The print has an UNLIMITED number of washes -> no damage! <br>
+                    Wash up to 60 °, our print will remain perfect. <br>
+                    Safety is our priority!</p>
+            </div>
+            <div class="row3"><br></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="logo">
+            <img src="../Home/gearink.png" alt="Gear Ink" width="150px">
+        </div>
+        <div class="footernavi">
+            <p>
+                <a href="index.html">Home</a> | <a href="hoodies.html">Hoodies</a> | <a href="tshirts.html">T-Shirts</a>
+                |
+                 <a href="aboutus.html">About Us</a> | <a href="contact.html">Contact</a>
+            </p>
+
+        </div>
+        <div class="footercontact">
+            <ul class="langsocial">
+                <li><a href="https://www.facebook.com/Gearink-100337774809497" target="_blank"><img src="../Home/fb.png"
+                    alt="Facebook" width="45px"></a></li>
+                <li><a href="https://www.instagram.com/gearink.mk/" target="_blank"><img src="../Home/insta.png"
+                            alt="Instagram" width="45px"></a></li>
+                <li><img src="../Home/vib.png" alt="Viber" width="45px" onclick="window.open('contact.html','_blank')"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

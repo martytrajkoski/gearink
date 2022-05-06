@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+
+    <title>GearInk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../Home/gearink.png" type="image/x-icon">
+    <link rel="stylesheet" href="../body.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../modalimg.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!-- 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.4.2.min.css" />
+
+    <script>
+        $(document).ready(function() {
+
+            $(".popup_image").on('click', function() {
+            w2popup.open({
+                title: 'Image',
+                body: '<div class="w2ui-centered"><img src="' + $(this).attr('src') + '"></img></div>'
+            });
+            });
+
+            });
+    </script> -->
+    
+    <style>
+        #posts{
+            background-image: url("../Home/pattern.png");
+            background-size:cover;
+            position: relative;
+            width: 100%;
+            float: left;
+        }
+        .titlenavi{
+            position: relative;
+            height: 70px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            background-color: #135563;   
+        }
+        .titlep p{
+            position: absolute;
+            margin-top: 0.5%;
+            height: 80px;
+            padding-left: 43%;
+            font-size: 38px;
+        }
+        .row1{
+            float: left;
+            width: 9%;
+        }
+        .row2{
+            float: left;
+            width: 81%;
+        }
+        #ramka img{
+            border-radius: 25px;
+            border: #135563 3.5px solid;
+            margin: 3.5%;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- POPUP IMAGE, Modal Image -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <div id="header">
+        <div class="logotop">
+            <img src="../Home/gearink.png" alt="GearInk"  height="110px"
+                onclick="location.href='pocetna.html'">
+        </div>
+        <div class="dropdowntop">
+            <ul>
+                <li><a href="../mk/pocetna.html">Почетна</a></li>
+                <li> <div class="dropdown">
+                    <p class="dropbtn">Категории
+                        <i class="fa fa-caret-down"></i>
+                    </p>
+                    <div class="dropdown-content">
+                        <a href="../mk/dukserki.html">Дуксерки</a>
+                        <a href="../mk/maici.html">Маици</a>
+                    </div>
+                </div></li>
+                <li><a href="../mk/zanas.html">За нас</a></li>
+                <li><a href="../mk/kontakt.html">Контакт</a></li>
+            </ul>   
+        </div>
+        <div class="langdropdown">
+            <ul class="langsocial">
+                <li><img src="../Home/uk.png" alt="English" width="40px" height="20px" onclick="location.href='../eng/tshirts.html'"></li>
+                <li><img src="../Home/mk.jpg" alt="Macedonian" width="40px" height="20px" onclick="location.href='../mk/maici.html'"></li>
+                <li><img src="../Home/alb.png" alt="Albanian" width="40px" height="20px" onclick="location.href='../alb/Tshirts.html'"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="posts">
+        <div class="titlenavi">
+            <div class="titlep">
+                <p>Маици</p>
+            </div>
+        </div>
+        <div class="row1">
+            <br>
+        </div>
+        <div class="row2">
+            <div id="ramka">
+                <img onclick="window.open(this.src, '_blank');"  src="../Tshirts/1 bela napred.png" alt="Tshirt1">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/21 savage mockup crn.png" alt="Tshirt2">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/aesthetic mockup bel.png" alt="Tshirt3">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/aesthetic mockup crn.png" alt="Tshirt4">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/angelina mockup bel.png" alt="Tshirt5">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/astro mockup crno.jpg" alt="Tshirt6">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/astro mockup.jpg" alt="Tshirt7">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/bela maica napred 4.png" alt="Tshirt8">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/mozok mockup bel.png" alt="Tshirt9">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/mozok mockup crn.png" alt="Tshirt10">
+                <img onclick="window.open(this.src, '_blank');" src="../Tshirts/when weekend crn mockup.png" alt="Tshirt11">
+            </div>
+        </div>
+        <div class="row3">
+            <br>
+        </div>
+        <script src="../modalimg.js"></script>
+    </div>
+    <div id="footer">
+        <div class="logo">
+            <img src="../Home/gearink.png" alt="Gear Ink" width="150px">
+        </div>
+        <div class="footernavi">
+            <p>
+                <a href="../mk/pocetna.html">Почетна</a> | <a href="../mk/dukserki.html">Дуксерки</a> | <a href="../mk/maici.html">Маици</a>
+                |
+                 <a href="../mk/zanas.html">За нас</a> | <a href="../mk/kontakt.html">Контакт</a>
+            </p>
+
+        </div>
+        <div class="footercontact">
+            <ul class="langsocial">
+                <li><a href="https://www.facebook.com/Gearink-100337774809497" target="_blank"><img src="../Home/fb.png"
+                    alt="Facebook" width="45px"></a></li>
+                <li><a href="https://www.instagram.com/gearink.mk/" target="_blank"><img src="../Home/insta.png"
+                            alt="Instagram" width="45px"></a></li>
+                <li><img src="../Home/vib.png" alt="Viber" width="45px" onclick="window.open('kontakt.html','_blank')"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

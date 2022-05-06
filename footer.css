@@ -1,0 +1,46 @@
+/* FOOTER */
+
+#footer {
+    background-color: #00232B;
+    display: table;
+    width: 100%;
+    padding-bottom: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: relative;
+}
+
+.logo {
+    padding: 1% 7%;
+    width: 8%;
+    float: left;
+}
+
+.footernavi {
+    width: 60%;
+    padding: 2.5% 0 0 0;
+    float: left;
+    color: #6affd2;
+}
+
+.footernavi a {
+    display: inline-block;
+    color: #B1FFE8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+.footernavi a:hover {
+    background-color: #0d8b85;
+    border-radius: 60px;
+}
+
+.footercontact {
+    width: 16%;
+    float: left;
+    padding-top: 50px;
+}

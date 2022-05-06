@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>GearInk</title>
+    <link rel="icon" href="../Home/gearink.png" type="image/x-icon">
+    <link rel="stylesheet" href="../body.css">
+    <link rel="stylesheet" href="../header.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        /* #main {
+            
+        } */
+        .mainbg{
+            position: absolute;
+            background-image: url(../Home/gearink.png);
+            background-size: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.1;
+            width: 100%;
+            height: 500px;
+        }
+        #main .row1{
+            float: left;
+            width: 10%;
+        }
+        #main .row2{
+            float: left;
+            width: 50%;
+        }
+        #main .row3{
+            float: left;
+            width: 40%;
+        }
+        .titlenavi{
+            color: #135563;
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            margin: -2% 7% 0 7%;
+        }
+        .row3 .container{
+            margin-top: 30%;
+        }
+        .socialmedia{
+            float: left;
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        #footer {
+            background-color: #00232B;
+            display: table;
+            width: 100%;
+            padding-bottom: 0;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            position: fixed;
+        }
+
+        .logo {
+            padding: 1% 7%;
+            width: 8%;
+            float: left;
+        }
+
+        .footernavi {
+            width: 60%;
+            padding: 2.5% 0 0 0;
+            float: left;
+            color: #6affd2;
+        }
+
+        .footernavi a {
+            display: inline-block;
+            color: #B1FFE8;
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+        }
+
+        .footernavi a:hover {
+            background-color: #0d8b85;
+            border-radius: 60px;
+        }
+
+        .footercontact {
+            width: 16%;
+            float: left;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="logotop">
+            <img src="../Home/gearink.png" alt="GearInk"  height="110px"
+                onclick="location.href='pocetna.html'">
+        </div>
+        <div class="dropdowntop">
+            <ul>
+                <li><a href="../mk/pocetna.html">Почетна</a></li>
+                <li> <div class="dropdown">
+                    <p class="dropbtn">Категории
+                        <i class="fa fa-caret-down"></i>
+                    </p>
+                    <div class="dropdown-content">
+                        <a href="../mk/dukserki.html">Дуксерки</a>
+                        <a href="../mk/maici.html">Маици</a>
+                    </div>
+                </div></li>
+                <li><a href="../mk/zanas.html">За нас</a></li>
+                <li><a href="../mk/kontakt.html">Контакт</a></li>
+            </ul>   
+        </div>
+        <div class="langdropdown">
+            <ul class="langsocial">
+                <li><img src="../Home/uk.png" alt="English" width="40px" height="20px" onclick="location.href='../eng/contact.html'"></li>
+                <li><img src="../Home/mk.jpg" alt="Macedonian" width="40px" height="20px" onclick="location.href='../mk/kontakt.html'"></li>
+                <li><img src="../Home/alb.png" alt="Albanian" width="40px" height="20px" onclick="location.href='../alb/Contact.html'"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="mainbg"></div>
+        <div class="row1">
+            <br>
+        </div>
+        <div class="row2">
+            <div class="titlenavi">
+                <p>Контакт</p>
+            </div>
+            <div class="container">
+                <p>Се што треба за да ви ја доставиме нарачката е <br>
+                да ги пратите следниве податоци на емејл, вибер или <br>
+                на нашиот инстаграм профил: </p>
+                <ol>
+                    <li>Име и презиме</li>
+                    <li>Град</li>
+                    <li>Телефонски број</li>
+                    <li>Адреса на живеење</li>
+                    <li>Величина</li>
+                    <li>Слика од продуктот</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="container">
+                <p>Е-пошта: gearink.mk@gmail.com</p>
+                <p>Телефон: +389</p>
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com/Gearink-100337774809497" target="_blank"><img src="../Home/facebook.png" alt="Facebook" width="140px"></a>
+                    <br>
+                    <br>
+                    <a href="https://www.instagram.com/gearink.mk/" target="_blank"><img src="../Home/instagram.png" alt="Instagram" width="160px"></a>
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+    <div id="footer">
+        <div class="logo">
+            <img src="../Home/gearink.png" alt="Gear Ink" width="150px">
+        </div>
+        <div class="footernavi">
+            <p>
+                <a href="../mk/pocetna.html">Почетна</a> | <a href="../mk/dukserki.html">Дуксерки</a> | <a href="../mk/maici.html">Маици</a>
+                |
+                 <a href="../mk/zanas.html">За нас</a> | <a href="../mk/kontakt.html">Контакт</a>
+            </p>
+
+        </div>
+        <div class="footercontact">
+            <ul class="langsocial">
+                <li><a href="https://www.facebook.com/Gearink-100337774809497" target="_blank"><img src="../Home/fb.png"
+                    alt="Facebook" width="45px"></a></li>
+                <li><a href="https://www.instagram.com/gearink.mk/" target="_blank"><img src="../Home/insta.png"
+                            alt="Instagram" width="45px"></a></li>
+                <li><img src="../Home/vib.png" alt="Viber" width="45px" onclick="window.open('kontakt.html','_blank')"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
